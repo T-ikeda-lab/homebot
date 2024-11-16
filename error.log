@@ -1,0 +1,36 @@
+INFO:pinecone_plugin_interface.logging:Discovering subpackages in _NamespacePath(['C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\pinecone_plugins'])
+INFO:pinecone_plugin_interface.logging:Looking for plugins in pinecone_plugins.inference
+INFO:pinecone_plugin_interface.logging:Installing plugin inference into Pinecone
+DEBUG:pinecone.core.openapi.shared.rest:response body: b'{"indexes":[{"name":"manual","metric":"cosine","dimension":1536,"status":{"ready":true,"state":"Ready"},"host":"manual-mrfrkcy.svc.aped-4627-b74a.pinecone.io","spec":{"serverless":{"region":"us-east-1","cloud":"aws"}},"deletion_protection":"disabled"},{"name":"manuals","metric":"cosine","dimension":1536,"status":{"ready":true,"state":"Ready"},"host":"manuals-mrfrkcy.svc.aped-4627-b74a.pinecone.io","spec":{"serverless":{"region":"us-east-1","cloud":"aws"}},"deletion_protection":"disabled"}]}'
+DEBUG:pinecone.core.openapi.shared.rest:response body: b'{"name":"manuals","metric":"cosine","dimension":1536,"status":{"ready":true,"state":"Ready"},"host":"manuals-mrfrkcy.svc.aped-4627-b74a.pinecone.io","spec":{"serverless":{"region":"us-east-1","cloud":"aws"}},"deletion_protection":"disabled"}'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.17:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:pinecone_plugin_interface.logging:Discovering subpackages in _NamespacePath(['C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\pinecone_plugins'])
+INFO:pinecone_plugin_interface.logging:Looking for plugins in pinecone_plugins.inference
+INFO:pinecone_plugin_interface.logging:Installing plugin inference into Pinecone
+DEBUG:pinecone.core.openapi.shared.rest:response body: b'{"indexes":[{"name":"manual","metric":"cosine","dimension":1536,"status":{"ready":true,"state":"Ready"},"host":"manual-mrfrkcy.svc.aped-4627-b74a.pinecone.io","spec":{"serverless":{"region":"us-east-1","cloud":"aws"}},"deletion_protection":"disabled"},{"name":"manuals","metric":"cosine","dimension":1536,"status":{"ready":true,"state":"Ready"},"host":"manuals-mrfrkcy.svc.aped-4627-b74a.pinecone.io","spec":{"serverless":{"region":"us-east-1","cloud":"aws"}},"deletion_protection":"disabled"}]}'
+DEBUG:pinecone.core.openapi.shared.rest:response body: b'{"name":"manuals","metric":"cosine","dimension":1536,"status":{"ready":true,"state":"Ready"},"host":"manuals-mrfrkcy.svc.aped-4627-b74a.pinecone.io","spec":{"serverless":{"region":"us-east-1","cloud":"aws"}},"deletion_protection":"disabled"}'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+DEBUG:httpx:load_ssl_context verify=True cert=None trust_env=True http2=False
+DEBUG:httpx:load_verify_locations cafile='C:\\Users\\a0015\\Desktop\\homebot\\venv\\lib\\site-packages\\certifi\\cacert.pem'
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 777-277-388
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2024 11:30:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2024 11:30:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
